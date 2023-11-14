@@ -1,0 +1,46 @@
+.userList {
+  flex: 4;
+  color: black;
+  background-color: white;
+  height: 150vh;
+}
+
+.userTitleContainer {
+  margin: 15px;
+}
+
+.userTitle {
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.userListUser {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.userListImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  color: white;
+}
+
+.userListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.userListDelete{
+    color: red;
+    cursor: pointer;
+}

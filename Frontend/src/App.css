@@ -1,0 +1,2382 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ---------------------------------------------------------------- */
+
+#blue {
+
+	width: 29%;
+	background-color: rgb(4, 1, 24);
+	height: 680px;
+float: left;
+	
+	
+
+}
+
+#blue img {
+	height: 170px;
+	width: 170px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+
+
+
+#black {
+	width: 71%;
+	background-image: url(../public/bg4.jpeg);
+	height: 650px;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 30px;
+	
+}
+
+/* ---------------------------------------------------------------- */
+
+body {
+background-color: black;
+}
+
+.video-container {
+  height: 650px;
+  width: 100%;
+  position: relative;
+
+
+}
+#sections {
+	width: 100%;
+	height: 700px;
+}
+.video-container video {
+width: 100%;
+height: 100%;
+position: absolute;
+object-fit: cover;
+z-index: 0;
+
+}
+
+
+#mainContent {
+background-color: rgb(0,0,0,0.2);
+  height: 660px;
+  width: 100%;
+  padding-top: 200px;
+}
+
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+
+z-index: 1;
+position: relative;
+
+
+}
+
+.caption p {
+  width: 70%;
+ margin: 0 auto;
+}
+
+
+#header {
+width: 100%;
+height: 27px;
+background-image: linear-gradient(to right, #0b25a6, #961151);
+
+
+}
+
+#testimonials {
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 100px;
+
+}
+
+.mouse {
+	width: 40px;
+	height: 80px;
+	border: 3px solid white;
+	border-radius: 60px;
+	position: relative;
+	box-shadow: solid black;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+  .mouse::before {
+		content: '';
+		width: 12px;
+		height: 12px;
+		position: absolute;
+		top: 10px;
+		left: 50%;
+		transform: translateX(-50%);
+		background-color: white;
+		border-radius: 50%;
+		opacity: 1;
+		animation: wheel 2s infinite;
+		-webkit-animation: wheel 2s infinite;
+	}
+
+
+@keyframes wheel {
+	to {
+		opacity: 0;
+		top: 60px;
+	}
+}
+
+@-webkit-keyframes wheel {
+	to {
+		opacity: 0;
+		top: 60px;
+	}
+}
+
+.scroll {
+	width: 60px;
+	height: 60px;
+	border: 2px solid white;
+	border-radius: 50%;
+	position: relative;
+	animation: down 1.5s infinite;
+	-webkit-animation: down 1.5s infinite;
+
+}
+
+	.scroll:before {
+		content: '';
+		position: absolute;
+		top: 15px;
+		left: 18px;
+		width: 18px;
+		height: 18px;
+		border-left: 2px solid white;
+  	border-bottom: 2px solid white;
+		transform: rotate(-45deg);
+	}
+
+	#mainContent2 {
+		background-color: rgb(0,0,0,0.2);
+		height: 100%;
+		width: 100%;
+		padding-top: 200px;
+	  }
+
+	  .video-container2 {
+		height: 100%;
+		width: 100%;
+		margin: 0 auto;
+	
+		position: relative;
+	  
+	  
+	  }
+	  
+	  .video-container2 video {
+	  width: 100%;
+	  height: 100%;
+	  position: absolute;
+	  object-fit: cover;
+	  z-index: 0;
+	  
+	  }
+
+	  
+	  .video-container3 {
+		height: 400px;
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 50px;
+		position: relative;
+	  
+	  
+	  }
+
+
+	  .video-container4 {
+		height: 100%;
+		width: 100%;
+		
+		margin: 0 auto;
+	
+		position: relative;
+	
+	  
+	  
+	  }
+
+	  
+	  .video-container4 video {
+		height: 100%;
+		width: 180%;
+	
+	  
+	  
+	  }
+
+
+	  .video-container3 video {
+	  width: 100%;
+	  height: 100%;
+	 
+	  position: absolute;
+	  object-fit: cover;
+	  z-index: 0;
+	  
+	  }
+
+	  
+	#mainContent3 {
+		background-color: rgb(0,0,0,0.2);
+		height: 400px;
+		width: 100%;
+		padding-top: 200px;
+	  }
+
+	    
+	#mainContent4 {
+		background-color: rgb(0,0,0,0.3);
+		height: 650px;
+		width: 100%;
+		padding-top: 170px;
+	  }
+
+
+	  #mainContent4 h1 {
+		font-size: 80px;
+	  }
+#cards {
+	width: 95%;
+	margin: 0 auto;
+	
+	margin-top: 50px;
+}
+	  #card1{
+		width: 24%;
+		display: inline-block;
+		margin-left: 10px;
+	
+	  }
+
+	  
+	  #card2{
+		width: 24%;
+		display: inline-block;
+		margin-left: 10px;
+	  }
+
+	  
+	  #card3{
+		width: 24%;
+		display: inline-block;
+		margin-left: 10px;
+	
+	  }
+
+	  #newsSection {
+		width: 85%;
+		margin: 0 auto;
+		margin-bottom: 100px;
+	  }
+
+	  #f1 {
+		background-image: url(../public/f5.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 48%;
+		margin-left: 15px;
+		margin-top: 15px;
+		height: 400px;
+		border: solid black 2px;
+		border-radius: 30px;
+		display: inline-block;
+		
+	  }
+	  #f2 {
+		background-image: url(../public/f2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 48%;
+		margin-left: 15px;
+		margin-top: 15px;
+		height: 400px;
+		border: solid black 2px;
+		border-radius: 30px;
+		display: inline-block;
+	  }
+	  #f3 {
+		background-image: url(../public/f6.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 48%;
+		margin-left: 15px;
+		margin-top: 15px;
+		height: 400px;
+		border: solid black 2px;
+		border-radius: 30px;
+		display: inline-block;
+	  }
+	  #f4 {
+		background-image: url(../public/f4.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 48%;
+		margin-left: 15px;
+		margin-top: 15px;
+		height: 400px;
+		border: solid black 2px;
+		border-radius: 30px;
+		display: inline-block;
+	  }
+
+	  #features {
+		width: 85%;
+		margin: 0 auto;
+		margin-top: 50px;
+	  }
+
+	  #myImg {
+		width: 100%;
+		height: 250px;
+	  }
+
+	  #f1 button {
+		position: relative;
+		top: 330px;
+		left: 230px;
+	  }
+
+	  #f2 button {
+		position: relative;
+		top: 160px;
+		left: 115px;
+	  }
+
+	  #f3 button {
+		position: relative;
+		top: 175px;
+		left: 450px;
+	  }
+	  #f4 button {
+		position: relative;
+		top: 170px;
+		left: 55px;
+	  }
+
+
+	  #banner {
+		width: 100%;
+		height: 680px;
+	  }
+
+
+	 #about {
+
+		width: 50%;
+		background-color: black;
+		height: 680px;
+	float: left;
+	
+
+	}
+	
+	#textCard {
+		width: 45%;
+		margin-left: 10px;
+		display: inline-block;
+	    
+	}
+
+	#aboutText {
+		width: 85%;
+		margin: 0 auto;
+		padding-top: 30px;
+
+	}
+	#blackBackground {
+		width: 100%;
+		background-color: rgb(0,0,0,0.3);
+		height: 680px;	
+	}
+	
+	
+	#whiteFooter {
+		width: 100%;
+		height:250px;
+		background-color: rgb(14, 13, 13);
+	}
+	
+	#footerText {
+		width: 90%;
+		margin: 0 auto;
+		padding-top: 80px;
+		
+	}
+
+	#footerButtons {
+
+float: right;
+margin-top: -60px;
+margin-right: 100px;
+	}
+
+
+	
+	#aboutPic {
+		width: 50%;
+		background-image: url(../public/aboutImg.jpeg);
+		height: 680px;
+		float: left;
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+		
+	}
+	
+
+	#bannerPromo {
+		width: 100%;
+		height: 450px;
+	  }
+
+
+	 #promo {
+
+		width: 50%;
+		background-color: black;
+		height: 450px;
+	float: right;
+	
+
+
+	}
+
+	#promoPic {
+		width: 50%;
+		background-image: url(../public/promo.jpg);
+		height: 450px;
+		float: left;
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+		
+	}
+	
+	#promoCard {
+		width: 45%;
+		margin-left: 10px;
+		display: inline-block;
+	    
+	}
+
+	#promoText {
+		width: 85%;
+		margin: 0 auto;
+		padding-top: 60px;
+
+	}
+	#promoBackground {
+		width: 100%;
+		background-color: rgb(0,0,0,0.4);
+		height: 450px;	
+	}
+	
+
+	#bannerPromo2 {
+		width: 100%;
+		height: 450px;
+	  }
+	  
+
+
+	 #build {
+
+		width: 50%;
+		background-color: black;
+		height: 450px;
+	float: left;
+	
+
+
+	}
+
+	#buildPic {
+		width: 50%;
+		background-image: url(../public/make.jpg);
+		height: 450px;
+		float: right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+		
+	}
+	
+	#buildCard {
+		width: 45%;
+		margin-left: 10px;
+		display: inline-block;
+	    
+	}
+
+	#buildText {
+		width: 85%;
+		margin: 0 auto;
+		padding-top: 60px;
+
+	}
+	#buildBackground {
+		width: 100%;
+		background-color: rgb(0,0,0,0.4);
+		height: 450px;	
+	}
+	
+	#bannerPromo3 {
+		width:100%;
+		height: 500px;
+		background-color: black;
+		padding-top:70px;
+		padding-bottom: 70px;
+		margin-bottom: 60px;
+		
+		
+	}
+
+	#gradient
+	{
+	
+		background: linear-gradient(286deg, rgba(2,0,36,1) 0%, rgba(102,199,193,1) 82%);
+		width: 100%;
+		margin: 0 auto;
+		height: 380px;
+		position: absolute;
+	
+	}
+
+	#whiteCard img {
+		width: 26%;
+		height: 480px;
+		background-color: white;
+		margin-left: 100px;
+		position: relative;
+		top: -50px;
+		border-radius: 10px;
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+	}
+
+
+	#gradientText {
+		width: 55%;
+		float: right;
+		padding-top: 50px;
+		margin-right: 100px;
+	}
+	
+
+
+	#banner5 {
+		width: 100%;
+		height: 680px;
+	  }
+
+
+	 #landing {
+
+		width: 50%;
+		background-color: black;
+		height: 670px;
+	float: right;
+	
+
+	}
+	
+	#landingCard {
+		width: 45%;
+		margin-left: 10px;
+		display: inline-block;
+	    
+	}
+
+	#landingText {
+		width: 85%;
+		margin: 0 auto;
+		padding-top: 35px;
+
+	}
+	#landingBackground {
+		width: 100%;
+		background-color: rgb(0,0,0,0.3);
+		height: 670px;	
+	}
+
+	
+	#large-input {
+		width: 65%;
+		display: inline-block;
+	}
+
+	#subscribe {
+		width:20%;
+	}
+
+	#landingPic {
+		width: 50%;
+		background-image: url(../public/Landing.jpeg);
+		height: 670px;
+		float: right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+		
+	}
+
+	#slide {
+		width: 45%;
+		height: 35px;
+		background-color: rgb(15, 15, 15);
+		margin-bottom: 10px;
+		border-radius: 20px;
+	}
+
+
+	
+	#aboutPage {
+		width:55%;
+		height:30px;
+		margin-top: 2.5px;
+		border-radius: 20px;
+		margin-left: 2.5px;
+		display: inline-block;
+	}
+
+	#slideText {
+		width: 35%;
+		display: inline-block;
+		margin-left: 10px;
+
+	}
+
+	#aboutContainer {
+		width:100%;
+		height: 690px;
+		background-color: black;
+	}
+
+#videoBg {
+	width:55%;
+	height:690px;
+	background-color: yellow;
+	float: right;
+}
+
+
+#textBg {
+	width:45%;
+	height:690px;
+	background-color: black;
+	float: left;
+}
+
+#drone {
+	width: 100%;
+	height: 345px;
+	background-color: pink;
+}
+
+#city {
+	width:100%;
+	height:345px;
+	background-color: black;
+}
+
+#about2 {
+
+	width: 90%;
+	background-color: black;
+	height: 100%;
+float: left;
+
+
+}
+
+
+#aboutText2 {
+	width: 85%;
+	margin: 0 auto;
+	padding-top: 60px;
+
+}
+
+#media {
+	width: 100%;
+	height: 550px;
+	background-color: black;
+}
+
+#mediaText {
+	width:40%;
+	height:690px;
+	background-color: rgb(19, 19, 19);
+    float: left;
+}
+
+#mediaPic {
+	width:60%;
+	height:690px;
+	background-image: url(../public/media.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: right;
+
+}
+
+
+#mediaHeading {
+	width: 85%;
+	margin: 0 auto;
+	padding-top: 10px;
+
+
+}
+
+#headingBanner {
+	background: rgb(0, 0, 0);
+	width: 100%;
+	height:300px;
+	padding-top: 150px;
+
+}
+
+#mediaContainer {
+	width:90%;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 50px;
+
+}
+#mediaImg {
+	width: 23%;
+	height: 200px;
+	display: inline;
+	margin-left: 20px;
+	margin-top: 20px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+    
+}
+
+#mediaImg img {
+	width: 100%;
+	height: 350px;
+	
+
+    
+}
+
+#modalImg {
+	width:100%;
+	height:600px;
+}
+
+
+#headerImage {
+	background-image: url('../public/cn2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 55%;
+	
+	height: 650px;
+	float: right;
+}
+
+#blkbackground {
+	width: 100%;
+	height: 700px;
+	background-color: rgb(0,0,0,0.2);
+}
+
+#headerText {
+	width: 45%;
+	height: 650px;
+	padding: 10px;
+    float: left;
+}
+
+#canadalogo {
+	display: inline-block;
+
+	margin-left: -20px;
+	margin-top: -140px;
+	
+
+}
+
+#canadalogo img{
+height: 200px;
+width: 200px;
+}
+
+#toronto {
+	display: inline-block;
+}
+
+#monitor {
+	width: 205px;
+	height: 205px;
+	margin-top: 10px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#know {
+	margin-top: -30px;
+}
+
+#stats {
+	width: 100%;
+	height: 230px;
+	background-color: black;
+	margin-bottom: 50px;
+	margin-top: -25px;
+	
+}
+
+#team {
+	width: 100%;
+	height: 1000px;
+	background-color: black;
+}
+
+#member {
+ 
+  width: 24%;
+  height: 550px;
+  border-radius: 20px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+#members {
+	width:97%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+#member img {
+	width: 95%;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius: 50px;
+}
+
+#social{
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#clients {
+	
+	margin-bottom: 50px;
+}
+
+#text {
+	margin-top: -390px;
+}
+
+#map {
+	width: 100%;
+	height: 450px;
+	margin: 0 auto;
+	border-radius: 30px;
+	margin-bottom: 30px;
+}
+
+#contactContainer{
+	height: 750px;
+	width: 100%;
+    background-color: black;
+}
+
+#contactPic {
+	width:50%;
+	height: 690px;
+	background-color: black;
+	float: left;
+}
+
+
+#contactForm {
+	width:50%;
+	height: 690px;
+	background-color: black;
+	float:right;
+}
+
+#contactPromo {
+	width: 90%;
+	height: 690px;
+	padding: 20px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 30px;
+	background-color: rgb(21, 21, 21);
+}
+
+#contactPromo2 {
+	width: 95%;
+	height: 690px;
+	padding: 20px;
+	
+	margin-left: 5px;
+	margin-top: 20px;
+	border-radius: 30px;
+	background-color: rgb(21, 21, 21);
+	
+}
+
+#contactPromo img {
+	margin-top: -60px;
+	width: 600px;
+	height: 600px;
+}
+
+#contactInput {
+	width: 50%;
+	margin-top: 10px;
+	float: left;
+	
+}
+#contactNum {
+	width: 50%;
+	float: right;
+	
+}
+
+#c1 {
+width: 100%;
+height: 100px;
+
+padding: 10px;
+margin: 0 auto;
+margin-top: 10px;
+margin-left: 20px;
+}
+
+#c1pic img {
+	width: 25%;
+	height: 80px;
+	float: left;
+	margin-right: 20px;
+	border-radius: 5px;
+
+}
+
+#c1Details {
+	width: 75%;
+	margin-left: 50px;
+}
+
+#appointment {
+	width: 100%;
+	height: 690px;
+	background-color: black;
+}
+
+#appointmentPic {
+	width: 50%;
+	height: 690px;
+	float: right;
+	background-color: black;
+}
+
+#imagePlaceholder {
+	width: 93%;
+	height: 600px;
+	margin: 0 auto;
+	background-color: rgb(20, 20, 21);
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-right: 40px;
+}
+
+#imagePlaceholder img {
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: -23px;
+   
+}
+
+#appointmentForm {
+	width: 50%;
+	height: 690px;
+	float: left;
+	background-color: black;
+}
+
+#formPlaceholder {
+	width: 94%;
+	height: 590px;
+	margin: 0 auto;
+	background-color: rgb(20, 20, 21);
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-left: 40px;
+	padding: 15px;
+
+}
+
+#inputFields {
+	width: 100%;
+	height: fit-content;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	
+
+}
+
+#inputFields2 {
+	width: 100%;
+	height: fit-content;
+	margin-bottom: 15px;
+	padding-top: 10px;
+	
+
+}
+
+
+#field1 {
+	width: 48%;
+	height: fit-content;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#field2 {
+	width: 48%;
+	height: fit-content;
+	display: inline-block;
+}
+
+#quote {
+	width: 100%;
+	height: 690px;
+	background-color: black;
+}
+
+#quoteOptionsContainer {
+	width: 50%;
+	height: 690px;
+	background-color: black;
+	float: left;
+}
+
+#quoteOptions {
+	width: 93%;
+	height: 590px;
+
+
+}
+
+#quoteImgContainer {
+	width: 50%;
+	height: 690px;
+	background-color: black;
+	float: right;
+}
+
+
+#quoteOptions {
+	width: 93%;
+	height: 590px;
+	margin: 0 auto;
+	background-color: rgb(12, 12, 13);
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-left: 40px;
+
+
+}
+
+
+
+
+#quoteOptions img {
+	height: 450px;
+	width: 450px;
+	margin: 0 auto;
+	margin-top: -7px;
+
+	
+
+}
+
+#quoteImgPlaceholder {
+	width: 93%;
+	height: 590px;
+	margin: 0 auto;
+	background-color: rgb(12, 12, 13);
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-right: 40px;
+	padding-top: 10px;
+	
+}
+
+#quoteImgPlaceholder p :hover {
+	color: rgb(52, 203, 193);
+	
+}
+
+
+
+#quote1 {
+	width:45%;
+	height: 400px;
+	background-color: rgb(12, 12, 13);
+	border-radius: 30px;
+	display: inline-block;
+	margin-left: 23px;
+	margin-top: 25px;
+	
+	
+}
+
+#quote1 img {
+	width:92%;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: -50px;
+
+	border-radius: 30px;
+
+	
+	
+	
+}
+
+
+#quote2 {
+	width:45%;
+	height: 300px;
+	background-color: rgb(12, 12, 13);
+	margin-top: 25px;
+	border-radius: 30px;
+	display: inline-block;
+	margin-left: 25px;
+	
+	
+}
+
+#quote2 img {
+	width:92%;
+	height: 300px;
+	margin: 0 auto;
+	
+	border-radius: 30px;
+	
+	
+	
+	
+}
+
+#costEstimation {
+	width: 100%;
+	
+}
+
+#estimation {
+	width: 50%;
+	float: left;
+}
+
+#estimate {
+	width: 50%;
+	float: right;
+}
+
+ #Wrapper {
+  display: inline-block;
+  position: relative;
+ }
+
+#Text {
+  display: inline-block;
+  white-space: pre;
+  color: white;
+}
+
+#Cursor {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 2px;
+  background-color: white;
+  animation: blink 0.8s infinite;
+  
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}
+
+#textEffect {
+	height: 50px;
+}
+
+.text-fade {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+	font-size: 32px;
+	color: white;
+  }
+  
+  .text-fade__text {
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+  }
+  
+  .text-fade__text--visible {
+	opacity: 1;
+  }
+
+  #storeFront {
+	width: 100%;
+	height: 690px;
+	background: black;
+  }
+
+  #storePic {
+	width:60%;
+	height: 690px;
+	background-color: black;
+	float: right;
+  }
+
+  #storeText {
+	width:40%;
+	height: 690px;
+	background-color: black;
+	float: left;
+	position: relative;
+  }
+
+  .slanted-container {
+	background-color: #031311;
+	clip-path: polygon(60% 0, 100% 0, 100% 100%, 0 100%);
+	padding: 20px;
+
+	height: 650px;
+
+  }
+  
+  #storeHeading {
+	font-family: Poppins;
+	color: "white"
+  }
+ 
+  .triangle {
+	width: 0;
+	height: 0;
+	border-top: 1010px solid #4f8c4c;
+	border-right: 210px solid transparent;
+	border-bottom: 0 solid #4f8c4c;
+	transform: rotate(270deg);
+	margin-top: -273px;
+  }
+
+  .avatar {
+	position: absolute;
+	width: 55%;
+	height: 640px;
+	left: 45%;
+	top: -0px;
+	margin-top: 100px;
+	
+  }
+
+  .d1 {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	transform: rotate(60deg);
+	top: 100px;
+  }
+
+  .d2 {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	transform: rotate(60deg);
+	top: 80px;
+	right: 600px;
+  }
+  .d3 {
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	transform: rotate(165deg);
+	top: 430px;
+	left: 250px;
+  }
+  .d4 {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	transform: rotate(60deg);
+	top: 420px;
+	left: 480px;
+  }
+  .d5 {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	transform: rotate(120deg);
+	top: 580px;
+	left: 580px;
+  }
+  .d6 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	transform: rotate(60deg);
+	top: 250px;
+	left: 650px;
+  }
+
+  .d7 {
+	position: absolute;
+	width: 20px;
+	height: 25px;
+
+	top: 105px;
+	left: 30px;
+  }
+
+  .d8 {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	transform: rotate(20deg);
+	top: 450px;
+	left: 50px;
+  }
+
+  .d9 {
+	position: absolute;
+	width: 20px;
+	height: 24px;
+
+	top: 110px;
+	left: 220px;
+  }
+   .d10 {
+	position: absolute;
+	width: 30px;
+	height: 35px;
+
+	top: 95px;
+	left: 220px;
+  }
+
+  .d11 {
+	position: absolute;
+	width: 20px;
+	height: 25px;
+
+	top: 150px;
+	left: 620px;
+  }
+
+  .d12 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	transform: rotate(60deg);
+	top: 150px;
+	left: 880px;
+  }
+
+  .d13 {
+	position: absolute;
+	width: 30px;
+	height: 28px;
+	
+	top: 70px;
+	left: 380px;
+  }
+
+
+  .d14 {
+	position: absolute;
+	width: 30px;
+	height: 28px;
+	
+	top: 550px;
+	left: 450px;
+	color: rgb(101, 161, 45)
+  }
+
+
+
+  .d15 {
+	position: absolute;
+	width: 30px;
+	height: 28px;
+	
+	top: 500px;
+	left: 600px;
+  }
+
+
+  .d16 {
+	position: absolute;
+	width: 30px;
+	height: 28px;
+	
+	top: 500px;
+	left: 180px;
+  }
+
+
+
+  #storeBanner {
+	width: 100%;
+	height: 130px;
+	background-color: rgb(15, 15, 15);
+
+	position: relative;
+  }
+
+
+
+  #banners {
+	width: 100%;
+	height: 170px;
+	
+	
+  }
+  #banner1 {
+	background-image: url(../public/banner1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 33.33%;
+	height: 170px;
+	display: inline-block;
+	
+  }
+
+  #banner2 {
+	background-image: url(../public/banner2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 33.33%;
+	height: 170px;
+	display: inline-block;
+  }
+
+  #banner3 {
+	background-image: url(../public/banner3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 33.33%;
+	height: 170px;
+	display: inline-block;
+  }
+
+  #featureBanners {
+	width:100%;
+	height:600px;
+  }
+
+
+  #featuresRow1 {
+	display: flex;
+	flex-direction: row;
+    width: 100%
+  }
+
+  #banner04 {
+	background-image: url(../public/banner4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	height: 300px;
+	
+
+  }
+
+  #banner05 {
+	background-image: url(../public/banner5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	height: 300px;
+	
+  }
+
+  #banner6 {
+	background-image: url(../public/banner6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	height: 300px;
+
+  }
+
+  #banner7 {
+	background-image: url(../public/banner7.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	height: 300px;
+
+  }
+
+  
+  .marquee {
+	width: 1200px;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	animation: marquee 10s linear infinite;
+}
+.marquee-item {
+	flex: none;
+	margin-right: 50px;
+	font-size: 36px;
+	color: #4d4d4d;
+}
+@keyframes marquee {
+	0% {
+		transform: translateX(0%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+  .marqueeText {
+	width: 100%;
+	background-color: #030d10;
+	color: white;
+	height: 100px;
+	overflow: hidden;
+    overflow-x: hidden; /* add this line to hide the horizontal scrollbar */
+
+}
+
+  .marqueeOffer {
+	color: rgb(87, 177, 54);
+	
+  }
+
+  .marqueeOffer2 {
+	color: rgb(30, 29, 29);
+	
+  }
+
+  .swiper-container {
+	margin: 0 auto;
+	overflow: hidden;
+  }
+  
+  .swiper-wrapper {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+  }
+
+  
+ 
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transform: translateX(13%);
+  margin-left: -30px;
+  z-index: 20;
+  color: white;
+  background-color: rgba(0, 0, 0);
+  padding: 25px;
+  border-radius: 10px;
+  
+}
+
+.swiper-button-next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	transform: translateX(13%);
+	margin-right: -15px;
+	z-index: 20;
+	color: white;
+	background-color: rgba(0, 0, 0);
+	padding: 25px;
+	border-radius: 10px;
+	
+  }
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+#storeFooter {
+	background-color: #07100f;
+	width: 100%;
+	height: 200px;
+
+	margin: 0 auto;
+	
+	margin-bottom: 20px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#storeFooter img {
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	margin-top: -50px;
+	margin-left: 30px;
+}
+
+#storeFooter2 {
+	background-color: black;
+	width: 100%;
+	height: 160px;
+
+	margin: 0 auto;
+	margin-top: -10px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#storeFooter2 img {
+	display: inline-block;
+	height: 130px;
+	width: 130px;
+	margin-top: -50px;
+	margin-left: 30px;
+}
+
+
+
+#categories {
+	width:100%;
+	height:350px;
+	
+
+}
+
+#banner8 {
+	background-image: url(../public/banner8.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 33.33%;
+	height:350px;
+	display: inline-block;
+}
+
+
+#banner9 {
+	background-image: url(../public/banner9.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 33.33%;
+	height:350px;
+	display: inline-block;
+}
+
+#banner10 {
+	background-image: url(../public/banner10.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 33.33%;
+	height:350px;
+	display: inline-block;
+}
+
+#categories button {
+	margin-left: 75px;
+	margin-top: 20px;
+}
+
+#banner8 button {
+	margin-left: 60px;
+}
+
+
+#banner11 {
+	background-image: url(../public/banner11.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	height:400px;
+	float: right;
+	margin-bottom: 50px;
+}
+
+#banner12 {
+	background-image: url(../public/banner12.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	height:400px;
+	float: left;
+	margin-bottom: 50px;
+}
+
+#blkbanner {
+
+	width:100%;
+	height: 400px;
+	margin-top: -20px;
+}
+
+#storeNav {
+	height: 60px;
+	margin-top: -10px;
+	position: relative;
+	width: 100%;
+	background-color: black;
+
+}
+
+#hoverCard {
+	background-color: rgb(0, 0, 0, 0.5);
+}
+
+.modal-enter {
+	opacity: 0;
+  }
+  
+  .modal-enter-active {
+	opacity: 1;
+	transition: opacity 300ms;
+  }
+  
+  .modal-exit {
+	opacity: 1;
+  }
+  
+  .modal-exit-active {
+	opacity: 0;
+	transition: opacity 300ms;
+  }
+  
+
+  .OfferModal-overlay {
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .OfferModal-content {
+	background-color: white;
+	padding: 2rem;
+	border-radius: 0.5rem;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+	animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+	0% {
+	  opacity: 0;
+	  transform: translateY(-50%);
+	}
+	100% {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+  }
+  
+
+
+  @keyframes fade-in {
+	from {
+	  opacity: 0;
+	  transform: translateY(50px);
+	}
+	to {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+  }
+  
+
+  .cart_container {
+	color: white;
+}
+
+.cart_wrapper {
+padding: 20px;
+}
+
+.cart_title {
+font-weight: 300;
+text-align: center;
+}
+
+.cart_top {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+}
+
+.cart_top-button {
+padding: 10px;
+font-weight: 600;
+cursor: pointer;
+}
+
+.cart_top-button[type="filled"] {
+border: none;
+background-color: rgb(78, 145, 74);
+color: white;
+padding: 10px;
+}
+
+.cart_top-button[type="filled"]:hover {
+background-color: #333;
+}
+
+
+.cart_top-text {
+text-decoration: underline;
+cursor: pointer;
+margin: 0px 10px;
+}
+
+.cart_bottom {
+display: flex;
+justify-content: space-between;
+}
+
+.cart_info {
+flex: 3;
+}
+
+.cart_product {
+display: flex;
+justify-content: space-between;
+margin-bottom: 15px;
+}
+
+.cart_product-detail {
+flex: 2;
+display: flex;
+}
+
+.cart_image {
+width: 210px;
+height:170px;
+}
+
+.cart_details {
+padding: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.cart_product-color {
+width: 20px;
+height: 20px;
+border-radius: 50%;
+}
+
+.cart_product-color[style] {
+background-color: white;
+}
+
+
+.cart_price-detail {
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.cart_product-amount-container {
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.cart_product-amount {
+font-size: 24px;
+margin: 5px;
+}
+
+.cart_product-price {
+font-size: 30px;
+font-weight: 200;
+}
+
+.cart_hr {
+background-color: #eee;
+border: none;
+height: 1px;
+}
+
+.cart_summary {
+flex: 1;
+border: 0.5px solid lightgray;
+border-radius: 10px;
+padding: 20px;
+height:57vh;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-top: -40px;
+}
+
+.cart_summary-title {
+font-weight: 500;
+}
+
+.cart_summary-item {
+margin: 30px 0px;
+display: flex;
+justify-content: space-between;
+}
+
+.cart_summary-item[type="total"] {
+font-weight: 500;
+font-size: 24px;
+}
+
+.cart_button {
+width: 100%;
+padding: 10px;
+background-color: rgb(78, 145, 74);
+color: white;
+font-weight: 600;
+}
+
+
+	
+
+.cart_button-continue {
+	width: 100%;
+	padding: 10px;
+	background-color: rgb(8 8 8);
+	color: white;
+	font-weight: 600;
+	margin-top: 10px;
+	}
+
+	
+#LoginImage {
+	width: 71%;
+	background-color: black;
+	height: 680px;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 30px;
+	
+}
+
+	
+#LoginArea {
+
+	width: 29%;
+	background-color: rgb(3, 26, 10);
+	height: 700px;
+float: left;
+}
+	
+
+#LoginPhoto {
+	width:70vh;
+	height: 70vh;
+	margin: 0 auto;
+
+}
+
+#loginImageText {
+	width: 95%;
+	margin-top: -30px;
+	margin: 0 auto;
+	
+}
+
+
+#LoginArea img {
+	height: 170px;
+	width: 170px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#greetingContainer {
+	width: 100%;
+	height: 160vh;
+	background-color: black;
+}
+
+#greetText {
+	width: 75%;
+	margin: 0 auto;
+	
+}
+
+#greetText p {
+	font-size: 40px;
+	
+	padding-bottom: 10vh;
+}
+
+
+#greetText img {
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 50px;
+
+	
+	
+}
+
+#btnContinue {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#SignupArea {
+
+	width: 29%;
+	background-color: rgb(3, 26, 10);
+	height: 710px;
+float: left;
+}
+
+#SignupPhoto {
+	width:70vh;
+	height: 70vh;
+	margin: 0 auto;
+
+}
+
+#SignupImageText {
+	width: 95%;
+	margin-top: -30px;
+	margin: 0 auto;
+	
+}
+
+#SignupImage {
+	width: 71%;
+	background-color: black;
+	height: 690px;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 30px;
+	
+}
+
+.cat_Container {
+
+}
+
+.Title {
+	color: rgb(10, 8, 8);
+	font-weight: 650;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 30px;
+	
+}
+
+.Filter {
+	color: white;
+	margin: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.FilterContainer {
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+.FilterText {
+	font-size: 20px;
+	font-weight: 700;
+	color: black;
+	
+}
+.FilterSelect {
+color: rgb(44, 43, 43);
+background-color: rgb(255, 255, 255);
+margin-right: 20px;
+margin-left: 10px;
+}
+
+.FilterOption {
+color: rgb(80, 77, 77);
+font-size: 18px;
+
+}
+
+
+.ProductsContainer {
+    max-width: 100%;
+	height: auto;
+	display:flex;
+	flex-wrap: wrap;
+	padding: 30px;
+  }
+
+  #product {
+	width: 23.7%;
+	margin-left: 15px;
+	margin-bottom: 30px;
+
+  }
+
+  .Product_Container {
+	width: 100%;
+	height: auto;
+	padding-top: 0px;
+	margin-bottom: 10px;
+	background-color: white;
+  }
+
+  #ProductDetails {
+	width: 95%;
+	height: auto;
+	padding: 20px;
+	background-color:white;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+  }
+
+  #ProductImage {
+	width: 40%;
+	height: 580px;
+
+  }
+
+  #ProductImage img {
+	width: 100%;
+	height: 580px;
+
+  }
+
+  #ProductDescription {
+	width: 60%;
+	height: 80vh;
+	
+  }
+
+  #ProductTitle {
+
+	height: 80px;
+	width: 95%;
+	margin-top: 0px;
+	margin-left: 30px;
+	color: rgb(255, 255, 255);
+	padding-top: 10px;
+
+  }
+
+  #ProductInfo {
+	color: white;
+	height: auto;
+	width: 95%;
+	margin-top: 2px;
+	margin-left: 30px;
+  }
+
+  
+  #ProductPrice {
+	color: white;
+	height: auto;
+	width: 95%;
+	margin-top: 20px;
+	margin-left: 30px;
+  }
+
+
+
+  #ProductStatus {
+	margin-top: 20px;
+	margin-left: 30px;
+	width: 40%;
+    color: white;
+	height: 20px;
+  }
+  #ProductRating {
+	margin-top: 20px;
+	margin-left: 30px;
+	width: 40%;
+    color: white;
+	height: 20px;
+	display: inline-block;
+  }
+
+  #ProductReviews {
+	margin-top: 20px;
+	margin-left: 30px;
+	width: 40%;
+    color: white;
+	height: 20px;
+	
+  }
+
+#ProductQuantity {
+	margin-top: 30px;
+	margin-left: 30px;
+	
+	display: inline-block;
+
+}
+
+#Buybtn {
+	margin-top: 30px;
+	margin-left: 20px;
+	
+	display: inline-block;
+}
+
+
+	#quantitySelector::-webkit-inner-spin-button,
+	#quantitySelector::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+#loginbtn:disabled {
+	color: rgb(29, 29, 29);
+	cursor: not-allowed
+}
+
+.error {
+
+	color: rgb(236, 62, 62)
+}
+
+.dashboard{
+    display: flex;
+
+
+}
+
+
+#newProductCard {
+	width: 25%;
+	border-radius: 5%;
+	height: 400px;
+	padding-top: 8px;
+	background-color: white;
+}
+
+#productImgContainer {
+	width: 95%;
+	height: 230px;
+	border-radius: 5%;
+	margin: 0 auto;
+	padding-top: 20px;
+	background-color: rgb(199, 194, 194);
+}
+
+#imgPlaceholder {
+	background-color: white;
+	width: 180px;
+	height: 180px;
+	margin: 0 auto;
+	border-radius: 50%;
+
+}
+
+
+.gradient {
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 100%);
+  }
+  .shadow-2xl:hover {
+	box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  }
+  .transform:hover {
+	transform: translateY(-1rem);
+  }
+
